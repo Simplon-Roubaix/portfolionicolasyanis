@@ -159,6 +159,7 @@ section
     align-items: center;
     min-height: 50vh;
     flex-direction: column;
+    background: url(../img/accueil.jpg)
 }
 .homef {
     min-height: 25vh;
@@ -597,5 +598,21 @@ font-weight: bold;
 .lel {
   text-align: center;
   max-width: 10%;
+
+}
+
+.aboutimg1 {
+  max-width: 20%;
+
+}
+
+.about1 {
+  margin-left: 1%;
+text-align: center;
+}
+
+.yanis1 {
+    text-align: center;
+    padding-top: 5%;
 
 }
