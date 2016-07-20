@@ -19,7 +19,7 @@ html {
 }
 
 *
-{   
+{
     box-sizing:border-box;
 }
 /*
@@ -223,7 +223,7 @@ input,
 textarea
 {
     background-color:#464F51;
-    border:0px transparent;    
+    border:0px transparent;
     color:white;
     width:80%;
     height:30px;
@@ -252,7 +252,7 @@ textarea
     .otherh
     {
 	height:60px;
-    }    
+    }
     .contacts
     {
 	flex-direction:row;
@@ -557,22 +557,32 @@ textarea
 
 
 
-.contact {
+.izi {
 
   padding-top: 1%;
   font-weight: bold;
 }
 
 
-.presentation{
+.poul1{
     margin-left: 38%;
 
 }
 
-.nico {
-    max-width: 25%;
+.ug {
+    max-width: 20%;
     margin-left: 2%;
     padding-top: 1%;
+}
+
+.ugg {
+  text-align: center;
+
+}
+
+.uj {
+
+  font-weight: bold;
 }
 
 .family{
