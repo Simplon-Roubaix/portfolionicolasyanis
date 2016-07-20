@@ -586,7 +586,10 @@ article p
 
 
 
+.backback {
 
+  background: url(../img/ww.jpg)
+}
 
 
 
@@ -595,6 +598,8 @@ article p
 .yess {
 
   padding-top: 2%;
+  color: white;
+  font-weight: bold;
 }
 
 
@@ -620,6 +625,7 @@ article p
     max-width: 20%;
     margin-left: 2%;
     padding-top: 1%;
+    border-radius: 75%;
 }
 
 .ugg {
