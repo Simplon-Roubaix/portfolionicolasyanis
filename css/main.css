@@ -18,6 +18,10 @@ html {
     line-height: 1.4;
 }
 
+*
+{   
+    box-sizing:border-box;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -127,6 +131,11 @@ footer {
     background-color: #464F51;
 }
 
+section
+{
+    display:flex;
+}
+
 /* INDEX.HTML */
 
 .homeh {
@@ -183,6 +192,48 @@ footer {
     height: 50px;
 }
 
+/* CONTACT.HTML */
+
+.contacts
+{
+    flex-direction:column;
+    text-align:center;
+    font-family:ralewaysemibold;
+}
+
+.contacts ul
+{
+    padding-left:0;
+    list-style:none;
+}
+
+.contacts h2
+{
+    border-bottom:4px solid orange;
+}
+
+.contactlist,
+.contactform
+ {
+     padding-left:10px;
+ }
+
+input,
+textarea
+{
+    background-color:#464F51;
+    border:0px transparent;    
+    color:white;
+    width:80%;
+    height:30px;
+    padding-left:5px;
+}
+
+.message
+{
+    height:100px;
+}
+
 /* ##################################################################### */
 
 
@@ -197,9 +248,21 @@ footer {
         justify-content: flex-end;
         align-items: center;
     }
-    .otherh {
-        height: 60px;
+    .otherh
+    {
+	height:60px;
+    }    
+    .contacts
+    {
+	flex-direction:row;
+	height:calc(100vh - 110px);
     }
+
+    .contactlist,
+    .contactform
+     {
+	 width:50%;
+     }
 }
 
 /* ##################################################################### */
