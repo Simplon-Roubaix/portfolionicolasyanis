@@ -150,6 +150,7 @@ footer {
     align-items: center;
     min-height: 50vh;
     flex-direction: column;
+    background: url(../img/accueil.jpg)
 }
 .homef {
     min-height: 25vh;
