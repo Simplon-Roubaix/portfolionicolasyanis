@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -32,7 +34,6 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -57,12 +58,7 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
 
@@ -101,41 +97,38 @@ textarea {
 
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('../fonts/raleway-semibold-webfont.woff2') format('woff2'),
-    url('../fonts/raleway-semibold-webfont.woff') format('woff');
+    src: url('../fonts/raleway-semibold-webfont.woff2') format('woff2'), url('../fonts/raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-
-
 /* ##################################################################### */
+
+
 /* ##########################   SMARTPHONE   ########################### */
+
+
 /* ##################################################################### */
+
 
 /* GENERAL */
 
-header
-{
-    width:100%;
-    background-color:#464F51;
-    display:flex;
-    flex-direction:column;
+header {
+    width: 100%;
+    background-color: #464F51;
+    display: flex;
+    flex-direction: column;
 }
-
-header a
-{
-    text-decoration:none;
-    color:white;
-    font-family:ralewaysemibold;
-    padding:0 5px;
-    margin:0 20px;
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: ralewaysemibold;
+    padding: 0 5px;
+    margin: 0 20px;
 }
-
-footer
-{
-    width:100%;
-    background-color:#464F51;
+footer {
+    width: 100%;
+    background-color: #464F51;
 }
 
 section
@@ -144,81 +137,59 @@ section
 }
 
 /* INDEX.HTML */
-.homeh
-{    
-    min-height:25vh;
-    align-items:center;
-}
 
-.homeh a:hover
-{
-    border-bottom:4px solid orange;
+.homeh {
+    min-height: 25vh;
+    align-items: center;
 }
-
-.homeh a
-{
-    font-size:30px;
+.homeh a:hover {
+    border-bottom: 4px solid orange;
 }
-
-.homeh a:visited
-{
-    text-decoration:none;
-    color:white;
-    font-size:30px;
+.homeh a {
+    font-size: 30px;
 }
-.homes
-{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:50vh;
-    flex-direction:column;
+.homeh a:visited {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
 }
-
-.homef
-{
-    min-height:25vh;
+.homes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
 }
-
-.bigtitle
-{
-    border-bottom:5px solid orange;
+.homef {
+    min-height: 25vh;
+}
+.bigtitle {
+    border-bottom: 5px solid orange;
     font-family: ralewaysemibold;
-    font-size:50px;
+    font-size: 50px;
 }
 
 /* ALL NON HOME PAGE */
 
-.logo
-{
-    margin-right:auto;
-    font-size:25px;
-    font-family:ralewaysemibold;
+.logo {
+    margin-right: auto;
+    font-size: 25px;
+    font-family: ralewaysemibold;
 }
-
-.stickfooter
-{
-    min-height:calc(100vh - 50px);
+.stickfooter {
+    min-height: calc(100vh - 50px);
 }
-
-.otherh
-{
-    height:20vh;
+.otherh {
+    height: 20vh;
 }
-
-.otherh a:hover
-{
-    border-bottom:2px solid orange;
+.otherh a:hover {
+    border-bottom: 2px solid orange;
 }
-
-.logo:hover
-{
-    border-bottom:0px !important;
+.logo:hover {
+    border-bottom: 0px !important;
 }
-
-.otherf
-{
-    height:50px;
+.otherf {
+    height: 50px;
 }
 
 /* CONTACT.HTML */
@@ -264,23 +235,23 @@ textarea
 }
 
 /* ##################################################################### */
+
+
 /* ############################   TABLETS   ############################ */
+
+
 /* ##################################################################### */
 
-@media screen and (min-width:801px)
-{
-    header
-    {
-	flex-direction:row;
-	justify-content:flex-end;
-	align-items:center;
+@media screen and (min-width:801px) {
+    header {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
     }
-    
     .otherh
     {
 	height:60px;
-    }
-    
+    }    
     .contacts
     {
 	flex-direction:row;
@@ -292,38 +263,30 @@ textarea
      {
 	 width:50%;
      }
-
 }
 
-
 /* ##################################################################### */
+
+
 /* ############################   DESKTOPS   ########################### */
+
+
 /* ##################################################################### */
 
 
-
 /* ##################################################################### */
+
+
 /* ########################   LARGE DESKTOPS   ######################### */
+
+
 /* ##################################################################### */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -355,8 +318,7 @@ textarea
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -385,12 +347,12 @@ textarea
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
-
 .clearfix:after {
     clear: both;
 }
@@ -404,11 +366,7 @@ textarea
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -419,74 +377,225 @@ textarea
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+
+  padding-top: 1%;
+  font-weight: bold;
+}
+
+
+.presentation{
+    margin-left: 38%;
+
+}
+
+.nico {
+    max-width: 25%;
+    margin-left: 2%;
+    padding-top: 1%;
+}
+
+.family{
+font-weight: bold;
+  padding-top: 1%;
+
+}
+
+.nico2 {
+    max-width: 45%;
+    margin-left: 55%;
+
+
+}
+
+.middle {
+  margin-bottom: 50%
+
+}
+
+
+
+.lel {
+  text-align: center;
+  max-width: 10%;
+
 }
