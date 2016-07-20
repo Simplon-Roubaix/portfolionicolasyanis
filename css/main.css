@@ -119,6 +119,7 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 header a {
     text-decoration: none;
     color: white;
@@ -126,6 +127,7 @@ header a {
     padding: 0 5px;
     margin: 0 20px;
 }
+
 footer {
     width: 100%;
     background-color: #464F51;
@@ -242,7 +244,7 @@ textarea
     flex-wrap:wrap;
     justify-content:space-between;
     align-items:center;
-    height:calc(100vh - 110px);
+    min-height:calc(100vh - 110px);
 }
 
 article
@@ -296,7 +298,7 @@ article p
     .contacts
     {
 	flex-direction:row;
-	height:calc(100vh - 110px);
+	min-height:calc(100vh - 110px);
     }
 
     .contactlist,
