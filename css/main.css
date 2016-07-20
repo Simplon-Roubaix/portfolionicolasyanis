@@ -531,6 +531,7 @@ font-weight: bold;
 
 
 .lel {
-  text-align: center
+  text-align: center;
+  max-width: 10%;
 
 }
